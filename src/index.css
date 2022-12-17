@@ -147,3 +147,30 @@ button:focus-visible {
 .block:after {
     filter: blur(25px);
 }
+
+.countdown-complete:before,
+.countdown-complete:after {
+    border-radius: 10px;
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+        45deg,
+        #487e02,
+        #2a4b01,
+        #447133,
+        #82d863,
+        #63a44b,
+        #487e02,
+        #2a4b01,
+        #447133,
+        #82d863,
+        #63a44b
+    );
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+}
