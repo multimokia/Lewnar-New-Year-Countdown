@@ -3,6 +3,7 @@
 
 ## How to run
 - Have nodejs 18 installed
+- Right-click in this directory and click `open a terminal here` (or equivalent option)
 - Run `npm i` while in this directory
 - `npm run dev` will launch the site to `http://localhost:5173`
 
