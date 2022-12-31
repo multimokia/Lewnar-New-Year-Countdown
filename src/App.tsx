@@ -10,10 +10,13 @@ function getCurrentTimezone(): TimeZoneString {
 }
 
 const TIMEZONES: DisplayableCountdownInfo[] = [
+    { timezone: "Europe/Rome", dispName: "Rome" },
     { timezone: "Europe/London", dispName: "London, England" },
     { timezone: "America/Toronto", dispName: "Toronto" },
     { timezone: "Europe/Berlin", dispName: "Berlin" },
-    { timezone: getCurrentTimezone(), dispName: "Here" }
+    { timezone: getCurrentTimezone(), dispName: "Here" },
+    { timezone: "America/Denver", dispName: "Denver" },
+    { timezone: "America/Los_Angeles", dispName: "San Franciso" }
 ];
 
 function App() {
